@@ -1,14 +1,11 @@
 # used this script in local machine for testing purpose
 
-
 from pyspark.sql import SparkSession
 
-from pyspark.sql.types import StructType, StructField, StringType, IntegerType, FloatType, BooleanType, DoubleType, TimestampType
-from pyspark.sql.types import DecimalType, DateType
+from pyspark.sql.types import StringType, IntegerType, FloatType, BooleanType
 
-from pyspark.sql.functions import split, to_timestamp, concat_ws, to_date, date_format
+from pyspark.sql.functions import split, to_timestamp, concat_ws, to_date
 
-from datetime import datetime
 
 import os
 import shutil
